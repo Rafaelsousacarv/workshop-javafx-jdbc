@@ -123,7 +123,7 @@ public class DepartmentFormController implements Initializable{
 	
 	public void updateFormData() {
 		if(entity == null) {
-			throw new IllegalStateException("Entity wal nul");
+			throw new IllegalStateException("Entity was nul");
 		}
 		txtId.setText(String.valueOf(entity.getId()));
 		txtName.setText(entity.getName());
